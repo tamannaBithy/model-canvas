@@ -2,4 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.testb {
+    @apply border border-white;
+  }
+  
+  .testc {
+    @apply bg-red-400;
+  }
 
+  p{
+    color: white;
+  }
+
+  .wrapper {
+    @apply max-w-[3000px] mx-auto;
+  }
+
+  .h-margin{
+    @apply lg:mx-56
+  }

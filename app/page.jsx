@@ -11,7 +11,7 @@ import Testimonial from "./components/Testimonial";
 
 export default function Home() {
   return (
-    <div className="bg-primary h-screen">
+    <div className="bg-primary h-auto wrapper">
      <Hero/>
      <Biography/>
      <SkillSet/>
