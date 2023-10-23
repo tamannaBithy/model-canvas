@@ -5,16 +5,16 @@ import line from "../../public/line.png";
 
 const Biography = () => {
   return (
-    <div className="h-margin md:flex md:justify-between md:items-center md:space-x-14">
+    <div className="h-margin biography-container">
       <Image
-        className="testb mx-auto md:mx-0"
+        className="mx-auto lg:mx-0"
         src={biography}
         alt="biography"
       />
 
-      <div className="testb p-4 space-y-3">
-        <p className="text-secondary underline">Bio Graphy</p>
-        <p className="text-[45px] font-extrabold pb-4">Meet With Me Again</p>
+      <div className="p-4 space-y-3 text-center lg:text-left">
+        <p className="text-secondary underline ">Bio Graphy</p>
+        <p className="lg:text-[45px] text-[35px] font-extrabold pb-4">Meet With Me Again</p>
         <p className="text-muted">
           Are you a photographer and want to get more customers? You need a
           portfolio now! Our expert tells you how to build the best website for
@@ -24,7 +24,7 @@ const Biography = () => {
         <div className="md:flex md:justify-evenly space-x-5 pt-4">
           <div className="space-y-4">
             <p className="text-xl font-semibold">Experience</p>
-            <Image src={line} alt="line" />
+            <Image  className="mx-auto lg:mx-0" src={line} alt="line" />
 
             <div className="space-y-9 pt-5">
               <div className="space-y-2">
@@ -43,16 +43,15 @@ const Biography = () => {
                   <span className="text-secondary">(2000 - 2005)</span>
                 </p>
                 <p className="text-muted">
-                  Our Experience you how to build the best website for
-                  Photographers!
+                Expert tells you how to build the best website for Photographers!
                 </p>
               </div>
             </div>
           </div>
-          <div className="space-y-3">
+          <div className="space-y-3 pt-5 lg:pt-0">
           <div className="space-y-4">
             <p className="text-xl font-semibold">Education</p>
-            <Image src={line} alt="line" />
+            <Image className="mx-auto lg:mx-0" src={line} alt="line" />
 
             <div className="space-y-9 pt-5">
               <div className="space-y-2">
@@ -61,8 +60,7 @@ const Biography = () => {
                   <span className="text-secondary">(2000 - 2005)</span>
                 </p>
                 <p className="text-muted">
-                  Our Experience you how to build the best website for
-                  Photographers!
+                Tells you how to build the best website for Photographers!
                 </p>
               </div>
               <div className="space-y-2">

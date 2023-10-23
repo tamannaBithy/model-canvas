@@ -5,7 +5,7 @@
 
 html{
   font-family: "DM Sans", sans-serif;
-  background-color: black
+  background-color: #090909
 }
 
 
@@ -31,4 +31,9 @@ p {
 
 .vertical-space{
   @apply space-y-10
+}
+
+
+.biography-container{
+  @apply lg:flex lg:justify-between lg:items-center lg:space-x-14
 }
