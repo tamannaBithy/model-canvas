@@ -34,7 +34,7 @@ p {
 }
 
 .h-margin {
-  @apply md:mx-56;
+  @apply lg:mx-52;
 }
 
 
@@ -46,3 +46,35 @@ p {
 .biography-text{
   @apply mt-5 lg:mt-0 p-4 space-y-3 text-center lg:text-left
 }
+
+
+.barCompleted-1 {
+  background-color: #BC885D;
+  width: 75%;
+  height: 75px;
+}
+.barCompleted-2 {
+  background-color: #BC885D;
+  width: 60%;
+  height: 75px;
+}
+.barCompleted-3 {
+  background-color: #BC885D;
+  width: 58%;
+  height: 75px;
+}
+.barCompleted-4 {
+  background-color: #BC885D;
+  width: 91%;
+  height: 75px;
+}
+.barCompleted-5 {
+  background-color: #BC885D;
+  width: 50%;
+  height: 75px;
+}
+
+.barContainer{
+  background-color: black;
+}
+
