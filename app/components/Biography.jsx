@@ -12,9 +12,9 @@ const Biography = () => {
         alt="biography"
       />
 
-      <div className="p-4 space-y-3 text-center lg:text-left">
-        <p className="text-secondary underline ">Bio Graphy</p>
-        <p className="lg:text-[45px] text-[35px] font-extrabold pb-4">Meet With Me Again</p>
+      <div className="biography-text">
+        <p className="heading-2">Bio Graphy</p>
+        <p className="heading pb-4">Meet With Me Again</p>
         <p className="text-muted">
           Are you a photographer and want to get more customers? You need a
           portfolio now! Our expert tells you how to build the best website for
@@ -38,7 +38,7 @@ const Biography = () => {
                 </p>
               </div>
               <div className="space-y-2">
-                <p>
+                <p className="font-bold">
                   Vinod Ad Farm{" "}
                   <span className="text-secondary">(2000 - 2005)</span>
                 </p>
@@ -64,7 +64,7 @@ const Biography = () => {
                 </p>
               </div>
               <div className="space-y-2">
-                <p>
+                <p className="font-bold">
                   Vinod Ad Farm{" "}
                   <span className="text-secondary">(2000 - 2005)</span>
                 </p>

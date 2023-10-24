@@ -4,7 +4,7 @@
 
 
 html{
-  font-family: "DM Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #090909
 }
 
@@ -21,19 +21,28 @@ p {
   color: white;
 }
 
+.heading{
+  @apply lg:text-[41px] text-[35px] font-bold;
+}
+
+.heading-2{
+  @apply text-secondary underline
+}
+
 .wrapper {
-  @apply max-w-[3000px] mx-auto;
+  @apply max-w-[3000px] mx-auto space-y-24;
 }
 
 .h-margin {
   @apply md:mx-56;
 }
 
-.vertical-space{
-  @apply space-y-10
-}
 
 
 .biography-container{
   @apply lg:flex lg:justify-between lg:items-center lg:space-x-14
+}
+
+.biography-text{
+  @apply mt-5 lg:mt-0 p-4 space-y-3 text-center lg:text-left
 }
