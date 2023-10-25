@@ -2,10 +2,11 @@ import Image from "next/image";
 import React from "react";
 import biography from "../../public/biography.png";
 import line from "../../public/line.png";
+import Description from "./Description";
 
 const Biography = () => {
   return (
-    <div className="h-margin biography-container">
+    <div className="biography-container testb max-w-6xl mx-auto">
       <Image
         className="mx-auto lg:mx-0"
         src={biography}
@@ -13,15 +14,13 @@ const Biography = () => {
       />
 
       <div className="biography-text">
-        <p className="heading-2">Bio Graphy</p>
-        <p className="heading pb-4">Meet With Me Again</p>
-        <p className="text-muted">
-          Are you a photographer and want to get more customers? You need a
+        <h5 className="heading-2">Biography</h5>
+        <h2 className="heading text-white">Meet With Me Again</h2>
+        <Description> Are you a photographer and want to get more customers? You need a
           portfolio now! Our expert tells you how to build the best website for
-          Photographers!
-        </p>
+          Photographers!</Description>
 
-        <div className="md:flex md:justify-evenly space-x-5 pt-4">
+        <div className="md:flex md:justify-evenly space-x-5 pt-10">
           <div className="space-y-4">
             <p className="text-xl font-semibold">Experience</p>
             <Image  className="mx-auto lg:mx-0" src={line} alt="line" />
