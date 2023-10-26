@@ -5,7 +5,8 @@
 
 html{
   font-family: 'Poppins', sans-serif;
-  background-color: #090909
+  background-color: #090909;
+  color: white
 }
 
 
@@ -30,7 +31,7 @@ p {
 }
 
 .wrapper {
-  @apply max-w-[3000px] mx-auto space-y-24;
+  @apply container max-w-[3000px] mx-auto space-y-28;
 }
 
 .h-margin {
