@@ -34,8 +34,17 @@ p {
 }
 
 .h-margin {
-  @apply lg:mx-52;
+  @apply max-w-6xl mx-auto;
 }
+
+.text-decoration{
+  @apply text-center lg:text-left
+}
+
+.img-container{
+  @apply mx-auto lg:mx-0
+}
+
 
 
 
@@ -47,7 +56,17 @@ p {
   @apply mt-5 lg:mt-0 p-4 space-y-3 text-center lg:text-left
 }
 
+
+
+
 .skills-container{
-  @apply lg:mx-44 lg:grid lg:grid-cols-9 lg:gap-x-10 pt-20
+  @apply lg:grid lg:grid-cols-9 lg:gap-x-10 pt-20 space-y-10 lg:space-y-0
 }
 
+.progress-text{
+  @apply font-semibold tracking-wider
+}
+
+.progress-line{
+  @apply my-auto border-2 border-[#1F1F1F]
+}

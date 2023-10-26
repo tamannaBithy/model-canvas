@@ -6,9 +6,9 @@ import Description from "./Description";
 
 const Biography = () => {
   return (
-    <div className="biography-container testb max-w-6xl mx-auto">
+    <div className="biography-container h-margin">
       <Image
-        className="mx-auto lg:mx-0"
+        className="img-container"
         src={biography}
         alt="biography"
       />
@@ -20,10 +20,10 @@ const Biography = () => {
           portfolio now! Our expert tells you how to build the best website for
           Photographers!</Description>
 
-        <div className="md:flex md:justify-evenly space-x-5 pt-10">
+        <div className="lg:flex lg:justify-evenly space-x-5 pt-10">
           <div className="space-y-4">
             <p className="text-xl font-semibold">Experience</p>
-            <Image  className="mx-auto lg:mx-0" src={line} alt="line" />
+            <Image  className="img-container" src={line} alt="line" />
 
             <div className="space-y-9 pt-5">
               <div className="space-y-2">
@@ -50,7 +50,7 @@ const Biography = () => {
           <div className="space-y-3 pt-5 lg:pt-0">
           <div className="space-y-4">
             <p className="text-xl font-semibold">Education</p>
-            <Image className="mx-auto lg:mx-0" src={line} alt="line" />
+            <Image className="img-container" src={line} alt="line" />
 
             <div className="space-y-9 pt-5">
               <div className="space-y-2">
