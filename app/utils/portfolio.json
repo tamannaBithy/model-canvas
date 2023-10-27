@@ -1,9 +1,38 @@
 [
   {
     "id": 1,
-    "title": "threeGridSection.title1",
-    "description": "threeGridSection.title1Desc",
+    "title": "Acting",
+    "description": "Zazza Social Media App",
     "img": "/zaz.png"
-    
+  },
+  {
+    "id": 2,
+    "title": "Acting",
+    "description": "Award Media App Fit",
+    "img": "/award.png"
+  },
+  {
+    "id": 3,
+    "title": "Acting",
+    "description": "Most iconic Award",
+    "img": "/most.png"
+  },
+  {
+    "id": 4,
+    "title": "Dancing",
+    "description": "Ladaii Marketing Add",
+    "img": "/ladai.png"
+  },
+  {
+    "id": 5,
+    "title": "Dancing",
+    "description": "Hestings Dance Club",
+    "img": "/hestings.png"
+  },
+  {
+    "id": 6,
+    "title": "Recites",
+    "description": "IPL Ceremony Program",
+    "img": "/recites.png"
   }
 ]

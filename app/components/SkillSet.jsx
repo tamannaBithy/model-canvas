@@ -6,7 +6,7 @@ import ProgressBar from "./ProgressBar";
 const SkillSet = () => {
   return (
     <div className=" bg-black">
-      <div className="skills-container h-margin">
+      <div className=" lg:grid lg:grid-cols-9 lg:gap-x-10 pt-20 vertical-space child-wrapper">
         <div className="lg:col-span-4 space-y-2 text-decoration">
           <p className="heading-2">Skillset</p>
           <p className="heading">Work will say about my skillset.</p>

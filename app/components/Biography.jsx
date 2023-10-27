@@ -6,14 +6,14 @@ import Description from "./Description";
 
 const Biography = () => {
   return (
-    <div className="biography-container h-margin">
+    <div className="lg:flex lg:justify-between lg:items-center lg:space-x-14 child-wrapper">
       <Image
         className="img-container"
         src={biography}
         alt="biography"
       />
 
-      <div className="biography-text">
+      <div className="mt-5 lg:mt-0 p-4 space-y-3 text-decoration">
         <h5 className="heading-2">Biography</h5>
         <h2 className="heading text-white">Meet With Me Again</h2>
         <Description> Are you a photographer and want to get more customers? You need a
