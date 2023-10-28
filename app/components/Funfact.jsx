@@ -10,7 +10,7 @@ const Funfact = () => {
           Our portfolio includes some of the region’s most iconic landmarks.
         </h2>
 
-        <div className="lg:grid grid-cols-4 gap-6 py-10">
+        <div className="grid lg:grid-cols-4 grid-cols-2 md:gap-6 gap-2 py-10">
           <Count />
         </div>
       </div>
