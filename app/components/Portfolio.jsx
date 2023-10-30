@@ -15,15 +15,6 @@ const Portfolio = () => {
           return (
             <div className="md:col-span-1 " key={id}>
               <div className="text-center space-y-4">
-                {/* <div className="relative w-full h-[350px]">
-                  <Image
-                    className="object-contain"
-                    src={img}
-                    alt="model"
-                    fill
-                  />
-                </div> */}
-
                 <Image
                   className={`object-contain mx-auto md:mx-0 ${
                     id === 5 ? "md:pt-16" : ""

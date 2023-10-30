@@ -1,6 +1,8 @@
 {
-  "cSpell.words": ["testb"],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontLigatures": false,
   "editor.formatOnSave": true,
-  "files.autoSave": "afterDelay"
 }
