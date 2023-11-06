@@ -60,7 +60,9 @@ const Experience = () => {
           </div>
         </div>
 
-        <h2 className="heading">Our experience allows to bring disruptive</h2>
+        <h2 className="heading px-2 lg:px-0">
+          Our experience allows to bring disruptive
+        </h2>
 
         <div className="grid lg:grid-cols-5 grid-cols-2 lg:px-32">
           {imgData?.map(({ id, imgSrc }) => {
