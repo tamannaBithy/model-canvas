@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Huntur Dimitir",
+    "designation": "Founder, Huntur Co.",
+    "desc": "Huntur Dimitir includes some of the region most iconic landmarks, from super high-rise luxury developments, to five star hotels, to five star hotels Five star hospitals",
+    "img": "/testimonial/reviewer-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Fill Willam",
+    "designation": "Marketer Huntur Co.",
+    "desc": "Fill Willam includes some of the region most iconic landmarks, from super high-rise luxury developments, to five star hotels, to five star hotels hospitals For zone",
+    "img": "/testimonial/reviewer-2.png"
+  },
+  {
+    "id": 3,
+    "name": "Dimitir Jac",
+    "designation": "Founder, Huntur Co.",
+    "desc": "Dimitir Jac includes some of the region most iconic landmarks, from super high-rise luxury developments, to five star hotels, to five star hotels Capital zone",
+    "img": "/testimonial/reviewer-3.png"
+  },
+  {
+    "id": 4,
+    "name": "Huntur Dimitir",
+    "designation": "Founder, Huntur Co.",
+    "desc": "Our portfolio includes some of the region most iconic landmarks, from super high-rise luxury developments, to five star hotels, hospitals",
+    "img": "/testimonial/reviewer-1.png"
+  },
+  {
+    "id": 5,
+    "name": "Jopez Filman",
+    "designation": "Founder, Co Operate",
+    "desc": "Jopez Filman includes some of the region most iconic landmarks, from super high-rise luxury developments, to five star hotels, to five star hotels for three Star",
+    "img": "/testimonial/reviewer-2.png"
+  },
+  {
+    "id": 6,
+    "name": "Huntur Dimitir",
+    "designation": "Founder, Huntur Co.",
+    "desc": "Our portfolio includes some of the region most iconic landmarks, from super high-rise luxury developments, to five star hotels, hospitals",
+    "img": "/testimonial/reviewer-3.png"
+  }
+]
