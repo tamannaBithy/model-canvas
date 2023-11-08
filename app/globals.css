@@ -47,3 +47,18 @@ html {
 .progress-text {
   @apply font-semibold tracking-wider;
 }
+
+/* react-slick custom design */
+.slick-slide > div {
+  margin: 0 15px;
+}
+
+.slick-dots li button:before {
+  color: rgb(179, 178, 178) !important;
+  font-size: 10px !important;
+  margin-top: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+}
