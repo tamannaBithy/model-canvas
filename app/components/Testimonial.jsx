@@ -13,18 +13,6 @@ const Testimonial = () => {
     arrows: false,
     slidesToShow: 2,
     slidesToScroll: 2,
-
-    // customPaging: () => (
-    //   <div
-    //     style={{
-    //       width: "10px",
-    //       color: "#BC885D",
-    //       border: "2px #BC885D solid",
-    //       marginRight: "2px",
-    //     }}
-    //   ></div>
-    // ),
-
     responsive: [
       {
         breakpoint: 768,
@@ -42,7 +30,6 @@ const Testimonial = () => {
       <h2 className="heading">Our Happy Client Feedback</h2>
 
       <Slider {...sliderSettings}>
-        {/* <div className="grid lg:grid-cols-2 gap-9 pt-2"> */}
         {testimonialData?.map(({ id, name, designation, desc, img }) => {
           return (
             <div key={id}>
@@ -63,7 +50,6 @@ const Testimonial = () => {
             </div>
           );
         })}
-        {/* </div> */}
       </Slider>
     </div>
   );
