@@ -60,5 +60,5 @@ html {
 }
 
 .slick-dots li.slick-active button:before {
-  color: white !important;
+  color: #bc885d !important;
 }

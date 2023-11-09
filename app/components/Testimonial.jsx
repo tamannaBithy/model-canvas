@@ -11,9 +11,20 @@ const Testimonial = () => {
     dots: true,
     infinite: true,
     arrows: false,
-    speed: 500,
     slidesToShow: 2,
     slidesToScroll: 2,
+
+    // customPaging: () => (
+    //   <div
+    //     style={{
+    //       width: "10px",
+    //       color: "#BC885D",
+    //       border: "2px #BC885D solid",
+    //       marginRight: "2px",
+    //     }}
+    //   ></div>
+    // ),
+
     responsive: [
       {
         breakpoint: 768,
