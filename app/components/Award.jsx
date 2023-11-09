@@ -53,7 +53,10 @@ const Award = () => {
       <Slider {...sliderSettings}>
         {brandData?.map(({ id, brandSrc }) => {
           return (
-            <div className="mt-12 relative h-[85px] w-[20px] mx-auto" key={id}>
+            <div
+              className="lg:mt-12 mt-8 relative h-[110px] lg:h-[85px] w-[20px] mx-auto"
+              key={id}
+            >
               <Image
                 src={brandSrc}
                 alt="brands"
