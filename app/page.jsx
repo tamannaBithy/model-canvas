@@ -1,3 +1,4 @@
+import Award from "./components/Award";
 import Biography from "./components/Biography";
 import Experience from "./components/Experience";
 import FollowInsta from "./components/FollowInsta";
@@ -12,16 +13,17 @@ import Testimonial from "./components/Testimonial";
 export default function Home() {
   return (
     <div className="wrapper">
-     <Hero/>
-     <Biography/>
-     <SkillSet/>
-     <Portfolio/>
-     <Funfact/>
-     <Team/>
-     <Experience/>
-     <Testimonial/>
-     <FollowInsta/>
-     <Footer/>
+      <Hero />
+      <Biography />
+      <SkillSet />
+      <Portfolio />
+      <Funfact />
+      <Team />
+      <Experience />
+      <Testimonial />
+      <Award />
+      <FollowInsta />
+      <Footer />
     </div>
   );
 }
