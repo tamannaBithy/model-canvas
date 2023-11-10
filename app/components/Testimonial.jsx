@@ -5,6 +5,7 @@ import testimonialData from "../utils/testimonial.json";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import styles from "./Testimonial.module.css";
 
 const Testimonial = () => {
   const sliderSettings = {
@@ -32,7 +33,7 @@ const Testimonial = () => {
       <Slider {...sliderSettings}>
         {testimonialData?.map(({ id, name, designation, desc, img }) => {
           return (
-            <div key={id}>
+            <div key={id} className={styles["slick-slide"]}>
               <div className="bg-[url('/testimonial/testimonial-bg.png')] bg-repeat px-8 lg:pt-10 py-7 space-y-6 lg:h-80 h-auto cursor-grab">
                 <q className="tracking-wide lg:text-[18px] lg:leading-10 text-muted">
                   {desc}
