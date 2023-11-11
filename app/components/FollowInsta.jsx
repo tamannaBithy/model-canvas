@@ -53,9 +53,23 @@ const FollowInsta = () => {
     slidesToScroll: 1,
     responsive: [
       {
+        breakpoint: 1120,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+        },
+      },
+      {
         breakpoint: 768,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 450,
+        settings: {
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -68,26 +82,27 @@ const FollowInsta = () => {
         {igData?.map(({ id, imgSrc }) => {
           return (
             <div
-              className="instaImg relative xl:h-[215px] md:h-[130px] h-[180px]  w-auto mx-auto cursor-pointer hover:brightness-50 transition ease-in "
               key={id}
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
-              <Image src={imgSrc} alt="brands" fill />
+              <div className=" instaImg cursor-pointer relative xl:h-[215px] md:h-[130px] h-[180px]  w-auto mx-auto  transition ease-in-out duration-700 hover:brightness-50 hover:scale-105">
+                <Image src={imgSrc} alt="brands" fill />
 
-              {isHovered && (
-                <div className="testb overlay space-y-36 text-white">
-                  <p className="text-xs text-center mt-3">roposhisen007</p>
+                {isHovered && (
+                  <div className="overlay flex flex-col justify-between my-4">
+                    <p className="text-xs text-center">roposhisen007</p>
 
-                  <div className="flex justify-end items-end mr-3  gap-11">
-                    <div className="text-sm flex justify-center items-center gap-2">
-                      <AiOutlineClockCircle />
-                      <p>Apr 14</p>
+                    <div className="flex justify-end items-end mr-4 gap-11">
+                      <div className="text-sm flex justify-center items-center gap-2">
+                        <AiOutlineClockCircle />
+                        <p>Apr 14</p>
+                      </div>
+                      <FiInstagram className="xl:text-3xl text-xl" />
                     </div>
-                    <FiInstagram className="text-3xl" />
                   </div>
-                </div>
-              )}
+                )}
+              </div>
             </div>
           );
         })}
