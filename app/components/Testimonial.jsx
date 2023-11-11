@@ -26,7 +26,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="child-wrapper space-y-3 px-16 xl:px-0">
+    <div className="child-wrapper space-y-3 px-5 md:px-16 xl:px-0">
       <p className="heading-2">Testimonials</p>
       <h2 className="heading">Our Happy Client Feedback</h2>
 
