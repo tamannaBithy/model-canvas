@@ -6,25 +6,25 @@ const Count = () => {
   const data = [
     {
       id: 1,
-      start: 7200,
+      start: 6700,
       end: 7500,
       title: "Project Done",
     },
     {
       id: 2,
-      start: 1,
+      start: 0,
       end: 23,
       title: "Co-Artist",
     },
     {
       id: 3,
-      start: 700,
-      end: 902,
+      start: 500,
+      end: 903,
       title: "Cup Of Coffee",
     },
     {
       id: 4,
-      start: 50,
+      start: 10,
       end: 120,
       title: "Branch Worldwide",
     },
@@ -39,6 +39,7 @@ const Count = () => {
               className="lg:text-[55px] text-[35px] font-bold"
               start={start}
               end={end}
+              duration={25}
             />
             <p className=" text-gray-300">{title}</p>
           </div>
