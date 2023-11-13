@@ -77,7 +77,7 @@ const FollowInsta = () => {
   };
 
   return (
-    <div className="pt-4">
+    <div className="pt-4 relative">
       <Slider {...sliderSettings}>
         {igData?.map(({ id, imgSrc }) => {
           return (
@@ -107,6 +107,11 @@ const FollowInsta = () => {
           );
         })}
       </Slider>
+
+      <div className="absolute w-56 lg:h-14 h-12  bg-[#BC885D] flex items-center justify-evenly top-1/3 md:right-1/3 right-0  cursor-pointer hover:bg-[#815937] transition ease-in-out duration-300 delay-100">
+        <FiInstagram />
+        <p className="font-medium">Follow on Instagram</p>
+      </div>
     </div>
   );
 };

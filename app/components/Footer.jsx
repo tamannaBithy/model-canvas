@@ -31,9 +31,9 @@ const Footer = () => {
 
   return (
     <div className="px-7 md:px-16 xl:px-0  relative">
-      <div className="absolute w-20 h-20 rounded-full bg-[#BC885D] -top-9 xl:left-36 -left-5 md:left-8 z-0"></div>
-      <div className="absolute w-64 h-64 rounded-full bg-[#BC885D] xl:right-14 -right-1  xl:top-36 top-14 z-0 "></div>
-      <div className="child-wrapper bg-black text-center space-y-5 xl:py-32 py-24 z-10 sticky">
+      <div className="absolute w-20 h-20 rounded-full bg-[#BC885D] -top-9 xl:left-36 -left-5 md:left-8"></div>
+      <div className="absolute w-64 h-64 rounded-full bg-[#BC885D] xl:right-14 -right-1  xl:top-36 top-14"></div>
+      <div className="child-wrapper bg-black text-center space-y-5 xl:py-32 py-24 sticky">
         <p className="heading-2">Let’s Work Together</p>
         <p className="md:text-[41px] text-[25px] font-bold md:tracking-wide">
           hello@ruposhi.com
