@@ -72,3 +72,7 @@ html {
 .instaImg:hover .overlay {
   opacity: 1;
 }
+
+.navLink {
+  @apply hover:text-[#815937] font-semibold transition ease-in duration-200 delay-100;
+}
