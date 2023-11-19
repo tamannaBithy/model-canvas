@@ -49,6 +49,9 @@ const FollowInsta = () => {
     dots: false,
     infinite: true,
     arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
     slidesToShow: 7,
     slidesToScroll: 1,
     responsive: [

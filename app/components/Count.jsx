@@ -6,7 +6,7 @@ const Count = () => {
   const data = [
     {
       id: 1,
-      start: 6700,
+      start: 6400,
       end: 7500,
       title: "Project Done",
     },
@@ -18,13 +18,13 @@ const Count = () => {
     },
     {
       id: 3,
-      start: 500,
+      start: 300,
       end: 903,
       title: "Cup Of Coffee",
     },
     {
       id: 4,
-      start: 10,
+      start: 0,
       end: 120,
       title: "Branch Worldwide",
     },

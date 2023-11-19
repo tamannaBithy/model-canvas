@@ -53,7 +53,7 @@ const Team = () => {
             >
               <div className="relative h-[250px] w-[160px]">
                 <Image
-                  className="object-contain"
+                  className="object-contain selector"
                   src={imgSrc}
                   alt="founder"
                   fill
