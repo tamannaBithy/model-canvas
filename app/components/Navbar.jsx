@@ -14,26 +14,40 @@ const Navbar = () => {
   return (
     <div className="flex justify-between items-center">
       <div>
-        <Image src={logo} alt="logo" className="w-48" />
+        <Image src={logo} alt="logo" className="xl:w-48 w-32" />
       </div>
 
-      <div className="hidden  lg:flex items-center space-x-14 py-4 pr-16">
-        <a href="#" className="navLink">
+      <div className="hidden xl:flex items-center space-x-14 py-4 pr-16">
+        <a
+          href="https://s7template.com/wp/ruposhi-new/#"
+          className="navLink"
+          target="_blank"
+        >
           Home
         </a>
-        <a href="#" className="navLink">
+        <a
+          href="https://s7template.com/wp/ruposhi-new/about"
+          className="navLink"
+          target="_blank"
+        >
           About
         </a>
-        <a href="#" className="navLink">
-          Portfolio
-        </a>
-        <a href="#" className="navLink">
+
+        <a
+          href="https://s7template.com/wp/ruposhi-new/blog"
+          className="navLink"
+          target="_blank"
+        >
           Blog
         </a>
         <a href="#" className="navLink">
           Pages
         </a>
-        <a href="#" className="navLink">
+        <a
+          href="https://s7template.com/wp/ruposhi-new/contact"
+          className="navLink"
+          target="_blank"
+        >
           Contact
         </a>
 
@@ -48,7 +62,7 @@ const Navbar = () => {
       </div>
 
       {/* Hamburger menu for small devices */}
-      <div className="lg:hidden">
+      <div className="xl:hidden mr-10">
         <button onClick={toggleMenu}>
           <svg
             className="w-6 h-6 fill-current"
@@ -56,7 +70,7 @@ const Navbar = () => {
             viewBox="0 0 24 24"
           >
             {isMenuOpen ? (
-              <path d="M12 2L2 12h20zm0 20L2 12h20" />
+              <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" />
             ) : (
               <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" />
             )}
@@ -65,18 +79,37 @@ const Navbar = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="lg:hidden absolute top-0 right-0 bg-gray-800 text-white p-4 space-y-4">
-          <a href="#" className="block hover:text-gray-300">
+        <div className="z-10 xl:hidden absolute top-14 bg-white text-gray-500 font-semibold py-5 inset-x-0 space-y-2 divide-y divide-solid">
+          <a
+            href="https://s7template.com/wp/ruposhi-new/#"
+            className="block pl-5 "
+            target="_blank"
+          >
+            Home
+          </a>
+          <a
+            href="https://s7template.com/wp/ruposhi-new/about"
+            className="block pl-5 pt-4"
+            target="_blank"
+          >
             About
           </a>
-          <a href="#" className="block hover:text-gray-300">
-            Contact
-          </a>
-          <a href="#" className="block hover:text-gray-300">
+          <a
+            href="https://s7template.com/wp/ruposhi-new/blog"
+            className="block pl-5  pt-4"
+            target="_blank"
+          >
             Blogs
           </a>
-          <a href="#" className="block hover:text-gray-300">
+          <a href="#" className="block pl-5  pt-4">
             Pages
+          </a>
+          <a
+            href="https://s7template.com/wp/ruposhi-new/contact"
+            className="block pl-5  pt-4"
+            target="_blank"
+          >
+            Contact
           </a>
         </div>
       )}
