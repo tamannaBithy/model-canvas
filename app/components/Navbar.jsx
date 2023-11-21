@@ -3,7 +3,6 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import logo from "../../public/heroImg/logo.png";
 import { IoSearch } from "react-icons/io5";
-import { MdClose } from "react-icons/md";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

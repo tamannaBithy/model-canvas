@@ -8,7 +8,7 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative  overflow-x-hidden">
       <div>
         <Image
           src={heroimg1}
