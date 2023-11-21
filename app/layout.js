@@ -10,7 +10,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "Ruposhi | Actor,model portfolio",
   description:
-    "Ruposhi represents over 300 professional models, actors and kids for clients in Sacramento and San Francisco. With over 20 years of experience and hands-on attention, we offer personalized service to our talent and clients.",
+    "Ruposhi represents over 300 professional models, actors and kids for clients in Sacramento and San Francisco.",
 };
 
 export default function RootLayout({ children }) {
